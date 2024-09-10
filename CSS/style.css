@@ -13,10 +13,6 @@ span{
     display: flex;
     justify-content: left;
 }
-.box1{
-    /* display: none; */ /*Box content is hidden*/
-    /* visibility: hidden;/ /*The box is hidden but the space is occupied by the box*/
-}
 *{
     background-color: black;
     color:rgb(230, 75, 23) ;
