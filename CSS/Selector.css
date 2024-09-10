@@ -1,0 +1,23 @@
+/* Type of selector In css */
+
+/* 1. Element Selector: */
+h2{
+    color :darkcyan
+}
+/* 2. Id Selector: */
+#id1{
+    color:rgb(195, 6, 47);
+}
+/* 3. Class Selector: */
+.container{
+    color: rgb(83, 162, 4);
+}
+/* 4. Global Selector: */
+*{
+    background-color: #ffcff5;
+    text-align: center;
+}
+/* Attribute selector*/
+p[draggable="true"]{
+    color :red
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Showcase</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #f4f4f4;
+            padding: 10px 0;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
+        .category {
+            margin-bottom: 40px;
+        }
+        .category h2 {
+            margin-bottom: 10px;
+        }
+        .media-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .media-container iframe {
+            flex: 1 1 calc(33% - 20px);
+            height: 200px;
+        }
+        .audio-container {
+            margin-top: 20px;
+        }
+        .audio-container audio {
+            display: block;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Media Showcase</h1>
+    </header>
+    <main>
+        <!-- Video Category 1 -->
+        <div class="category">
+            <h2>Category 1 - Videos</h2>
+            <div class="media-container">
+                <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/VIDEO_ID_2" frameborder="0" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/VIDEO_ID_3" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+        
+        <!-- Video Category 2 -->
+        <div class="category">
+            <h2>Category 2 - Videos</h2>
+            <div class="media-container">
+                <iframe src="https://www.youtube.com/embed/VIDEO_ID_4" frameborder="0" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/VIDEO_ID_5" frameborder="0" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/VIDEO_ID_6" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+        
+        <!-- Audio Category 1 -->
+        <div class="category">
+            <h2>Category 1 - Audios</h2>
+            <div class="audio-container">
+                <audio controls>
+                    <source src="AUDIO_URL_1" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <audio controls>
+                    <source src="AUDIO_URL_2" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <audio controls>
+                    <source src="AUDIO_URL_3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </div>
+        
+        <!-- Audio Category 2 -->
+        <div class="category">
+            <h2>Category 2 - Audios</h2>
+            <div class="audio-container">
+                <audio controls>
+                    <source src="AUDIO_URL_4" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <audio controls>
+                    <source src="AUDIO_URL_5" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <audio controls>
+                    <source src="AUDIO_URL_6" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

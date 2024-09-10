@@ -1,0 +1,23 @@
+.box{
+    margin: 56px;
+    padding: 34px;
+    border: thick double orange;
+    border-radius: 50px;
+    outline: 4px dotted rgb(202, 14, 14);
+    outline-offset:8px;
+    border-inline: 5px dashed red ;
+    border-left: 10px solid rgb(200, 203, 10);
+    display:inline-block;
+}
+span{
+    display: flex;
+    justify-content: left;
+}
+.box1{
+    /* display: none; */ /*Box content is hidden*/
+    /* visibility: hidden;/ /*The box is hidden but the space is occupied by the box*/
+}
+*{
+    background-color: black;
+    color:rgb(230, 75, 23) ;
+}

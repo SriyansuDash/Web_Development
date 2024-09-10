@@ -1,0 +1,59 @@
+h1,h2{
+    color: blueviolet;
+}
+.box > .done{
+    color: firebrick;
+}
+.box li{
+    color: blue;
+}
+li.done{
+    color:green
+}
+ul p.done{
+    font-size: 0.5rem;
+}
+*{
+}
+.color{
+    border: 2.5px solid black;
+    padding: 8px 16px;
+    padding-bottom: 20px;
+    margin-left: 15px;
+    background-color: rgb(18, 105, 139);
+    background-image: url();
+    color: rgb(255, 170, 58);
+    font-size: large;
+    
+}
+.color li:hover{
+    font-size: 35px;
+}
+.pallet_1{
+    background-color: violet;
+    color: rgb(51, 24, 183);
+}
+.pallet_2{
+    background-color: indigo;
+    color: azure;
+}
+.pallet_3{
+    background-color: blue;
+    color: aquamarine;
+}
+.pallet_4{
+    background-color: green;
+    color: bisque;
+}
+.pallet_5{
+    background-color: yellow;
+    color: red;
+}
+.pallet_6{
+    background-color: orange;
+    color:darkblue;
+}
+.pallet_7{
+    background-color: red;
+    color:aliceblue
+}

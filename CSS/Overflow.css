@@ -1,0 +1,10 @@
+.container{
+    width: 40vw;
+    height: 30vh;
+    border: 3pt solid black;
+    overflow: scroll;
+    /* white-space: nowrap; */
+    /* text-overflow:ellipsis; */
+    overflow-x: hidden;
+    overflow-y: scroll;
+}

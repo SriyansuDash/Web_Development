@@ -1,0 +1,30 @@
+.container{
+    min-height: 200px;
+    width: 200px;
+    padding: 9vh 6vh;
+    margin: 1vw;
+    background-color: rgb(134, 154, 21);
+    box-shadow: 25px 30px 50px yellow;
+    display: inline-block;
+}
+*{
+    background-color: black;
+}
+#id1{
+    padding: 20px;
+    border: 2px solid blue;
+    min-height: 100px;
+    width: 100px;
+    background-color: blue;
+    color:aquamarine;
+    box-shadow: 20px 20px 30px skyblue;
+    text-align: center;
+    text-shadow: 10px 10px 10px black;
+}
+.clas2{
+    position: relative;
+    top:60px;
+    left:2vw;
+    text-decoration: underline wavy;
+    color: blanchedalmond;
+}

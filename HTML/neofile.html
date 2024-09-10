@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* table,th,td{
+            border: 1px solid black;
+            border-spacing: 9px;
+            border-collapse: collapse;
+        } */
+        #table2{
+            border-style: dashed;
+            border-color: rgb(255, 255, 255);
+            border-spacing: 9px;
+            border-radius: 0.5cm ;
+        }
+        #th2{
+            border: 1px solid rgb(251, 246, 246);
+            border-spacing: 9px;
+            border-collapse: collapse;
+            border: 4px dotted rgb(255, 14, 86);
+            border-radius: 3cm;
+        }
+        #td2{
+            border-radius:6px;
+            border: 0.3px rgb(251, 255, 9);
+            border-style: groove;
+        }
+        *{
+            background-color: rgb(4, 5, 69);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: rgb(239, 183, 183);
+        }
+        caption{
+            font-weight: 600;
+            font-size: 20px;
+            color:chartreuse;
+        }
+    </style>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/1994/1994825.png" type="image/x-icon">
+</head>
+<body>
+    <table border="1" cellspacing="0" cellpadding="12" id=>
+        <th>Heading 1</th>
+        <th style="width:60%">Heading 2</th>
+        <th>Heading 3</th>
+        <tr style="text-align: center;">
+            <td>Row 1 coloumn 1</td>
+            <td>Row 1 coloumn 2</td>
+            <td>Row 1 coloumn 3</td>
+        </tr>
+        <tr style="height:200px">
+            <td>Row 2 Coloumn 1 </td>
+            <td>Row 2 Coloumn 2 </td>
+            <td>Row 2 coloumn 3 </td>
+        </tr>
+        <tr>
+            <td>Row 3 coloumn 1</td>
+            <td>Row 3 coloumn 2</td>
+            <td>Row 3 coloumn 3</td>
+        </tr>
+    </table>
+    <br><br><br><br>
+    <table id="table2">
+        <caption>This is table 2</caption>
+        <thead>
+            <th id="th2">Heading 1</th>
+            <th id="th2">Heading 2</th>
+            <th id="th2">heading 3</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td id="td2">Row 1 coloumn 1</td>
+                <td id="td2">Row 1 coloumn 2</td>
+                <td id="td2">Row 1 coloumn 3</td>
+            </tr>
+            <tr>
+                <td id="td2">Row 2 Coloumn 1 </td>
+                <td id="td2">Row 2 Coloumn 2 </td>
+                <td id="td2">Row 2 coloumn 3 </td>
+            </tr>
+            <tr>
+                <td id="td2">Row 3 coloumn 1</td>
+                <td id="td2">Row 3 coloumn 2</td>
+                <td id="td2">Row 3 coloumn 3</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

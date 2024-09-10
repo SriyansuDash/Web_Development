@@ -1,0 +1,38 @@
+.box {
+    border: 2px solid blueviolet;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    margin: 2px;
+}
+
+#box1 {
+    position: absolute;
+    background-color: mediumspringgreen;
+}
+
+#box2 {
+    background-color: lightblue;
+    position: relative;
+    top: 36px;
+    left: 30px;
+}
+
+#box3 {
+    background-color: orange;
+    position: relative;
+    top: 72px;
+    right: 30px;
+}
+
+#box4 {
+    background-color: deepskyblue;
+    position: relative;
+    top: 114px;
+    right: 90px;
+}
+
+* {
+    background-color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+}
