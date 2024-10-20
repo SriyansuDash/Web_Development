@@ -1,0 +1,33 @@
+/* .heading-class{
+    color:rgb(195, 147, 37);
+    text-decoration:underline;
+    background-color: rgb(0, 0, 0);
+}
+body{
+    background-color: rgba(46, 181, 28, 0.464);
+}
+button{
+    color: rgb(6, 16, 78);
+    background-color: cadetblue;
+} */
+
+ body{
+    background-color: rgba(46, 181, 28, 0.464);
+ }
+.paragraph{
+    text-align: center;
+    text-decoration: dashed;
+    background-color: blanchedalmond;
+}
+#id2{
+    color:rgb(224, 93, 64)
+}
+.p{
+    background-color: black;
+    color: aliceblue;
+}
+#id1{
+    text-size-adjust:50px ;
+    color: coral;
+    background-color: aqua;
+}

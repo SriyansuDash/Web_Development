@@ -1,0 +1,35 @@
+*{
+    background-color: rgb(57, 63, 70);
+}
+.upper-red{
+    background-color: rgb(176, 8, 8);
+    width: 60pc;
+    height: 10pc;
+    text-align:center ;
+    color: aliceblue;
+    font-size: 80px;
+}
+.blue{
+    background-color:darkblue;
+    width: 60pc;
+    height: 22pc;
+} 
+.white{
+    background-color: white;
+    border: 2px solid white;
+    height: 14pc;
+    width: 14pc;
+    border-radius: 50%;
+    position: relative;
+    bottom: 293px;
+    left: 25pc;
+    font-size: 80px;
+    text-align: center;
+}
+.lower-red{
+    background-color: rgb(176, 8, 8);
+    width: 60pc;
+    height: 10pc;
+    position: relative;
+    bottom: 242px;
+}

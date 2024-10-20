@@ -1,0 +1,25 @@
+img{
+    position: fixed;
+    top: 20vh;
+    max-height: 53%;
+   margin-left: 5%;
+   box-shadow: 11px 11px 5pc skyblue;
+}
+body{
+    background-color: rgb(53, 53, 53);
+}
+#text{
+    margin: 5%;
+    margin-top: 40px;
+    font-size: 2.44EM; 
+    color:skyblue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.des{
+    color: white;
+    margin-left: 28%;
+    margin-top: 5%;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 218, 146);
+}

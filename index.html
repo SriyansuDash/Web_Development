@@ -1,0 +1,270 @@
+ <!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    const theList = ['Laurence', 'Svekis', true, 35, null, undefined,
+{test: 'one', score: 55}, ['one', 'two']];
+console.log(theList);
+theList.shift();
+theList.pop();
+theList.unshift("First");
+theList[2] = "Middle";
+theList[3] = "Hello world";
+theList.push("LAST") ;
+console.log(theList);
+</script>
+</html> -->
+
+ <!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    const inventory = [];
+    const item1 = {name : "Google", model : "Pixel8pro",cost :1_06_990, quantity:10};
+    const item2 = {name : "Apple", model : "15proMax",cost :1_49_990, quantity:20};
+    const item3 = {name : "Samsung", model : "S24Ultra",cost :1_39_990, quantity:30};
+    inventory.push(item1,item2,item3);
+    // console.log("Inventory : ",inventory);
+    console.log("Quantity of third item is ",inventory[2].quantity);
+    const newItem = {name: "iQOO", model:"12",cost:"49_990",quantity:40};
+    inventory.push(newItem);
+    console.log("Inventroy is updated ",inventory);
+</script>
+</html>  -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    const friends = {
+        "CREBO " :"Friend",
+        "DROXY": "Friend",
+        "DRIVO": "Friend",
+        "DANGER" : "Friend",
+        "PRISTON" : "Friend"
+    };
+    // console.log(friends);
+    let name = prompt("Enter your friend name : ")
+    switch(name){
+        case "CREBO":
+            console.log("Hii,crebo");
+            break;
+        case "DROXY":
+            console.log(friends.DROXY);
+            break;
+        case "DRIVO":
+            console.log(friends.DRIVO);
+            break;
+        case "DANGER":
+            console.log(friends.DANGER);
+            break;
+        case "PRISTON":
+            console.log(friends.PRISTON);
+            break;
+        default :
+        console.log("Your name is not listed");
+        break;
+    }
+</script>
+</html>  -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    const choice = ["Rock","Paper","Scissors"];
+    const playerSelection = Math.floor(Math.random()*choice.length);
+    const computerSelection = Math.floor(Math.random()*choice.length);
+    console.log(`Player choice is ${choice[playerSelection]} & Computer Selection is ${choice[computerSelection]}`);
+    if(playerSelection === computerSelection){
+        console.log("Game is tie !!");
+    }
+    else if(playerSelection === 0 && computerSelection === 2 ||
+            playerSelection === 1 && computerSelection === 1 ||
+            playerSelection === 2 && computerSelection === 0){
+                console.log("Player is Winner");
+    }
+    else{
+        console.log("Compter is Winner ");
+    }
+</script>
+</html> -->
+
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>\
+<script>
+    function mul(value){
+        const table = [];
+        let numValue = value;
+        for(let i=1;i<=numValue;i++){
+            const result =[];
+            for (let j = 1;j <=numValue; j++) {
+                result.push(i*j);
+            }
+            table.push(result);
+        }
+        console.log(table);
+    }
+    mul(10);
+</script>
+</html> -->
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    function countUpTo(value){
+        if(value>10){
+            return;
+        }
+        else{
+        console.log(value);
+        countUpTo(value+1);
+        }
+    }
+    countUpTo(1);
+    countUpTo(5);
+    countUpTo(8);
+</script>
+</html> -->
+
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    const one =() => console.log("One");
+    const two = () => console.log("Two");
+    const three = () => console.log("Three");
+
+    const four =() =>{
+    console.log("Four");
+    setTimeout(three ,0);
+    setTimeout(one ,0);
+    }
+    four();
+    setTimeout(two,0);
+    setTimeout(one,0);
+</script>
+</html> -->
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    class employee {
+        constructor (firstname,lastname,yearOfWork){
+            this.firstname = firstname;
+            this.lastname = lastname;
+            this.yearOfWork = yearOfWork;
+        }
+        getInfo(){
+            return `Name of the employee is ${this.firstname} ${this.lastname} , Work Experience ${this.yearOfWork}`;
+        }
+    }
+    const employee1 = new employee("Abhishek","Kumar",2);
+    console.log(employee1.getInfo());
+    const employees =[
+        new employee("CREBO","Google",6),
+        new employee("DROXY","BOT",5),
+        new employee("DRIVO","Pro",5),
+    ];
+    for(const employee of employees){
+        console.log(employee.getInfo());
+    }
+</script>
+</html> -->
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    class MenuItems{
+        constructor(price , name){
+            this.price = price;
+            this.name = name;
+        }
+        setOrderQuantity (quantity){
+            this.quantity = quantity;
+        }
+        get total(){
+            return `total order ${this.price*this.quantity}`
+        }
+    }
+    const rice = new MenuItems(100,"rice");
+    const dal = new MenuItems(200,"dal");
+    rice.setOrderQuantity(2);
+    dal.setOrderQuantity(3);
+    const order1 = rice.total+dal.total
+    rice.setOrderQuantity(4);
+    dal.setOrderQuantity(6);
+    const order2 = rice.total+dal.total;
+    console.log(`Order 1 total : ${order1}`);
+    console.log(`Order 2 total : ${order2}`);
+</script>
+</html> -->

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="click" type="button">Click here</button>
+</body>
+<script>
+    let click = document.getElementById('click');
+    function buttonClickHandler(){
+        console.log('button clicked');
+        const xhr = new XMLHttpRequest();
+        xhr.open('GET','info.txt',true);
+        xhr.onload = function(){
+            document.write(this.response);
+        }
+        xhr.send();
+    }
+    click.addEventListener('click',buttonClickHandler);
+</script>
+</html>
