@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <script>
-        let a = 34;
-    let obja ={
-        r: 2,
-        v : 3,
-        fun: function funName(num) {
-            console.log("This is your number : "+num);
-        }
-    };
+        const name = (firstname, lastname) => {
+            if (!firstname || !lastname) {
+                throw new Error("Please enter firstname and lastname");
+            }
+            return `Hello, ${firstname} ${lastname}!`;
+        };
+        console.log(name("ne", 'toma'));
     </script>
 </body>
+
 </html>
