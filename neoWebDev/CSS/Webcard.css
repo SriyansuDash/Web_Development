@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap');
+
+body {
+    background-color: rgb(79, 77, 77);
+}
+
+.card {
+
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid white;
+    height: 700px;
+    width: 502px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 1pc rgb(255, 255, 255);
+}
+
+.image {
+    /* background: none; */
+    padding: 10px;
+}
+
+.image img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.capsule {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-large;
+    color: rgb(136, 133, 133);
+    margin-top: 1pc;
+}
+.capsule span {
+    margin-left: 2pc;
+    border: 1px solid rgb(136, 133, 133);
+    padding: 10px;
+    border-radius: 30px;
+}
+.content h1{
+    font-size: 2.5rem;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: bold;
+    margin-left: 18px;    
+}
+.content p{
+    font-size: x-large;
+    margin-left:18px ;
+}
+.button{
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+.button button{
+    background-color: rgb(224, 246, 254);
+    box-sizing: border-box;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: rgb(39, 104, 255);
+    border-radius: 20pc;
+    border: 1px solid;
+}
+.button button:hover{
+    cursor:pointer;
+}
