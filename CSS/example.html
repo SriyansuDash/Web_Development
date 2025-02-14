@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            width: 100vw;
+            height: 50px;
+            border: 2px solid black;
+            background-color: darkorchid;
+            position: static;
+        }
+
+        .container {
+            width: 90%;
+            height: 80vh;
+            position: relative;
+            top: 35px;
+            margin: 0 auto;
+            border: 2px solid black;
+            background-color: green;
+        }
+
+        .container .box {
+            width: 32%;
+            height: 64%;
+            border: 2px solid black;
+            position: relative;
+            display: inline-block;
+            margin: 8% 8%;
+        }
+
+        .box1 {
+            float: left;
+            background-color: plum;
+        }
+
+        .box2 {
+            float: right;
+            background-color: skyblue;
+        }
+
+        .circle {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 2px solid red;
+            background-color: rgba(247, 93, 4, 0.897);
+            /* position: absolute;
+            top: -30px;
+            right: -35pc; */
+            position: fixed;
+            right: 0%;
+            float: right;
+        }
+
+        .text {
+            font-family: Arial, Helvetica, sans-serif;
+            position: absolute;
+            top: 100%;
+            left: 37%;
+            font-size: 30px;
+            border: 0px solid black;
+            border-radius: 70px;
+            padding: 50px;
+            outline: 3px dotted black;
+            outline-offset: 10px;
+
+        }
+        footer .box{
+            width: 100vw;
+            height: 50px;
+            border: 2px solid black;
+            background-color: darkgray;
+            position: relative;
+            top: 330px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+
+        </nav>
+    </header>
+    <main>
+
+        <div class="container">
+            <div class="box box1"></div>
+            <div class="box box2"></div>
+
+        </div>
+
+        <div class="circle"></div>
+        <div class="text">
+
+            <p>Welcome to Sigma Web Devlopment</p>
+        </div>
+    </main>
+    <footer>
+        <div class="box"></div>
+    </footer>
+</body>
+
+</html>
