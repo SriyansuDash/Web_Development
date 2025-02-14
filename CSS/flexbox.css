@@ -33,12 +33,15 @@
     font-size: 30px;
     flex-grow: 1;
     align-self: flex-start;
+    flex-basis: 30px;
+    min-width: 100px;
 }
 .order-2{
     order: 2;
     color: darkblue;
     font-size: 30px;
-    flex-shrink: 4;
+    flex-shrink: 1;
+    flex-basis: 10px;
 }
 .order-65{
     order: 65;
@@ -51,4 +54,8 @@
     order: 24;
     color: darkblue;
     font-size: 30px;
+}
+.order-33{
+    flex-basis : 200px;
+    max-width: 150px;
 }
