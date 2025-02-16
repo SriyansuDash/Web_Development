@@ -1,0 +1,19 @@
+.background{
+    width: 80vw;
+    height: 400px;
+    margin: 0 auto;
+    padding: 15px 15px 15px 15px;
+    background-color:#c3c4c5;
+}
+.container{
+    display: grid;
+    grid-template-rows: repeat(2,100px) 150px;
+    grid-template-columns: auto 400px minmax(200px,500px);
+}
+.box{
+    padding: 10px;
+    background: #089231;
+    color: aliceblue;
+    border: 1px solid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
