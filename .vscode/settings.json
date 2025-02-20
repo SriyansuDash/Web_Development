@@ -1,3 +1,4 @@
 {
-    "livePreview.defaultPreviewPath": "/neoWebDev/CSS/slides.html"
+    "livePreview.defaultPreviewPath": "/neoWebDev/CSS/slides.html",
+    "liveServer.settings.port": 5501
 }
