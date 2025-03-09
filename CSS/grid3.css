@@ -1,0 +1,27 @@
+.container{
+    border: 2px solid orange;
+    width: 500px;
+    height: 600px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+.box{
+    border:2px solid blueviolet;
+    width: 100px;
+    height: 100px;
+}
+.box5{
+    /* background-color:lightslategrey; */
+    grid-row-start: 2;
+    grid-row-end : -3;
+    grid-column-start:2;
+    grid-column-end: -2;
+}
+.box3{
+    /* background-color:grey; */
+    grid-row-start: 2;
+    grid-row-end : -3;
+    grid-column-start:2;
+    grid-column-end: -2;
+}

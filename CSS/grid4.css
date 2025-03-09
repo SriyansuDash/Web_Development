@@ -1,0 +1,35 @@
+.container{
+    border: 2px solid blueviolet;
+    padding: 5px;
+    display: grid;
+    grid-template-rows: repeat(3, 100px);
+    grid-template-columns: 1fr 1fr;
+    grid-area: "nav nav nav"
+                "side article article"
+                "footer footer footer";
+}
+.box{
+    height: 50px;
+    width: 50px;
+    border: 2px solid green;
+}
+
+.box1{
+    background-color: lightblue;
+    grid-area: nav;
+}
+
+.box2{
+    background-color: lightgreen;
+    grid-area: side;
+}
+
+.box3{
+    background-color: lightpink;
+    grid-area: article;
+}
+
+.box4{
+    background-color: lightyellow;
+    grid-area: footer;
+}
