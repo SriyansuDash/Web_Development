@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: cadetblue;
+    height: 60vh;
+    width: 90vw;
+}
+
+.box {
+    background-color: darksalmon;
+    height: 100px;
+    width: 100px;
+    /* animation-name: animations;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 2;
+    animation-delay: 2s;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: backwards; forwards */
+    /* animation: name duration timing-function delay iteration-count direction fill-mode;; */
+    animation: animations 2s ease-in-out 3s infinite, newAnimation 3s ease-in-out 3s infinite;
+}
+
+@keyframes animations {
+    from {
+        background-color:tomato;
+        transform: translateX(30px) translateY(10px);
+    }
+
+    to {
+        background-color:#cfcfff;
+        transform: translateX(100px) translateY(30vh);
+    }
+}
+@keyframes newAnimation {
+    0%{
+        transform: rotate(80deg);
+    }
+    20%{
+        transform: rotate(100deg);
+    }
+    40%{
+        transform: rotate(170deg);
+    }
+    60%{
+        transform: rotate(220deg);
+    }   
+    80%{
+        transform: rotate(260deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
