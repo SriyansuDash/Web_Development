@@ -1,0 +1,24 @@
+{
+   "name" : "Sriyansu Dash",
+   "age" : 22,
+    "email" : "sriyansudash09@gmail.com",
+    "phone" : 1234567890,
+    "address" : {
+        "street" : "123 Main St",
+        "city" : "Bhubaneswar",
+        "state" : "Odisha",
+        "zip" : 751024
+    },
+    "skills" : [
+        "JavaScript",
+        "Python",
+        "Java",
+        "C++"
+    ],  
+    "education" : {
+        "degree" : "Bachelor of Technology",
+        "major" : "Computer Science",
+        "university" : "XYZ University",
+        "year" : 2023
+    }
+}

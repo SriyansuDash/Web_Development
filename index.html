@@ -268,3 +268,149 @@ console.log(theList);
     console.log(`Order 2 total : ${order2}`);
 </script>
 </html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Inspired Layout</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #141414;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 20px auto;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 2em;
+            color: #e50914; /* Netflix Red */
+        }
+
+        .header .language-select {
+            background-color: transparent;
+            color: white;
+            border: 1px solid white;
+            padding: 5px 10px;
+            border-radius: 3px;
+        }
+
+        .trending-now {
+            margin-top: 20px;
+        }
+
+        .trending-now h2 {
+            margin-bottom: 15px;
+        }
+
+        .movie-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 15px;
+        }
+
+        .movie-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 5px;
+        }
+
+        .movie-item img {
+            width: 100%;
+            display: block;
+            transition: transform 0.3s ease;
+        }
+
+        .movie-item:hover img {
+            transform: scale(1.1);
+        }
+
+        .movie-item .movie-title {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 10px;
+            text-align: center;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .movie-item:hover .movie-title {
+            opacity: 1;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>NETFLIX</h1>
+            <select class="language-select">
+                <option value="en">English</option>
+                <option value="es">Español</option>
+                <option value="fr">Français</option>
+            </select>
+        </div>
+
+        <div class="trending-now">
+            <h2>Trending Now</h2>
+            <div class="movie-grid">
+                <div class="movie-item">
+                    <img src="movie1.jpg" alt="Money Heist">
+                    <div class="movie-title">Money Heist</div>
+                </div>
+                <div class="movie-item">
+                    <img src="movie2.jpg" alt="Devaara Mahaaraj">
+                    <div class="movie-title">Devaara Mahaaraj</div>
+                </div>
+                <div class="movie-item">
+                    <img src="movie3.jpg" alt="Bhaskar Azaad">
+                    <div class="movie-title">Bhaskar Azaad</div>
+                </div>
+                <div class="movie-item">
+                    <img src="movie4.jpg" alt="When Life Gives You Tangerines">
+                    <div class="movie-title">When Life Gives You Tangerines</div>
+                </div>
+                <div class="movie-item">
+                    <img src="movie5.jpg" alt="Nadaaniyan">
+                    <div class="movie-title">Nadaaniyan</div>
+                </div>
+                <div class="movie-item">
+                    <img src="movie6.jpg" alt="Vidaamuyarchi 3">
+                    <div class="movie-title">Vidaamuyarchi 3</div>
+                </div>
+                <div class="movie-item">
+                    <img src="movie7.jpg" alt="Lucky">
+                    <div class="movie-title">Lucky</div>
+                </div>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
