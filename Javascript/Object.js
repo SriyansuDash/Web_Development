@@ -1,10 +1,10 @@
-// const student={
-//     Name : 'Sriyansu Dash',
-//     reg_no : '2241004190' ,
-//     Age : '18',
-//     Section : 30
-// };
-// console.log(name);
+const student={
+    Name : 'Sriyansu Dash',
+    reg_no : '2241004190' ,
+    Age : '18',
+    Section : 30
+};
+console.log(student );
 
 const cars = {
     BMW : "M5 CS",
