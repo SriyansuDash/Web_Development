@@ -15,8 +15,33 @@ array.concat(array2,array3);
 console.log(`The array after concat is ${array}`);
 
 
+let a = [1, 2, 3, 4, 5];
+a.forEach((value, index, a) =>{
+    console.log(value, index, a);
+    
+})
 
 
+//map func
+
+let newArray = a.map(a=>{
+    return a ** 2;
+})
+console.log(newArray);
 
 
+//filter func
+// const greaterThanTwo = a.filter(a => {
+//     return a > 2;
+// });
+
+const greaterThanSeven = ( e=>{
+    if(e > 7){
+        return true;
+    }
+    else{
+        return false;
+    }
+});
+console.log(array.filter(greaterThanSeven));
 
