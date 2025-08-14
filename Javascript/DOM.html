@@ -29,6 +29,25 @@
         console.log("Hello World");
         console.log(document.body.childNodes);
         console.log(`Accessing box1: ${document.querySelector('.box1').textContent}`);
+        let childNodes = document.body.childNodes[1].childNodes;
+        console.log("All child nodes of the first child of body:");
+        for (let index = 0; index < childNodes.length; index++) {
+            console.log(childNodes[index]);   
+        }
+        let firstChild = document.body.childNodes[1];
+        console.log("First child of body:", firstChild);
+        
+        console.log("First element child of body: ", firstChild.firstElementChild);
+        
+        console.log("Last child of div container: ",document.body.firstElementChild.lastElementChild);
+        console.log("Changing the text size and color of last div child: ", 
+            document.body.firstElementChild.lastElementChild.style.fontSize = "30px",
+            document.body.firstElementChild.lastElementChild.style.backgroundColor = "skyblue",
+        );
+        console.log("Accessing all children of the first child of body:", firstChild.children);
+        
+        
+        
     </script>
 </body>
 </html>
